@@ -1,6 +1,6 @@
 <template>
   <main class="min-h-screen">
-    <AppHeader class="mb-8" title="Bookmarks" :description="description" />
+    <AppHeader class="mb-8" title="收藏夹" :description="description" />
     <ul class="space-y-2">
       <li v-for="bookmark in bookmarks" :key="bookmark.id">
         <a
@@ -30,7 +30,7 @@
 const description =
   "Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com";
 useSeoMeta({
-  title: "Bookmarks | Fayaz Ahmed",
+  title: "收藏夹 | 小鑫同学",
   description,
 });
 

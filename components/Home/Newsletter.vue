@@ -6,21 +6,15 @@
       >
         <div class="h-1.5 w-1.5 rounded-full bg-current"></div>
       </div>
-      <h2 class="uppercase text-xs font-semibold text-gray-400">
-        STAY IN TOUCH
-      </h2>
+      <h2 class="uppercase text-xs font-semibold text-gray-400">保持联系</h2>
     </div>
     <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
-      Get notified when I publish something new, and unsubscribe at any time.
+      如果你也对编程或者前端开发感兴趣，我们可以互相交流学习。
     </p>
     <div class="flex items-center gap-3 mt-6">
-      <UInput
-        placeholder="Email Address"
-        icon="i-heroicons-envelope"
-        class="flex-1"
-        size="lg"
-      />
-      <UButton label="Join &rarr;" size="lg" color="black" />
+      <div class="w-full flex justify-center">
+        <img src="/wechat.png" alt="微信" class="h-55 w-48 sm:h-50 sm:w-45" />
+      </div>
     </div>
   </div>
 </template>

@@ -1,10 +1,6 @@
 <template>
   <main class="min-h-screen">
-    <AppHeader
-      class="mb-12"
-      title="What's in my bag?"
-      :description="description"
-    />
+    <AppHeader class="mb-12" title="工具集" :description="description" />
     <div class="space-y-24">
       <ul class="space-y-8">
         <AppUsesHeader title="Hardware" />
@@ -30,7 +26,7 @@
 const description =
   "Software I use, gadgets I love, and other things I recommend. Here’s a big list of all of my favorite stuff.";
 useSeoMeta({
-  title: "Things I use | Fayaz Ahmed",
+  title: "工具箱 | 小鑫同学",
   description,
 });
 const { data: items } = await useAsyncData("uses", () =>
