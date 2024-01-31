@@ -10,8 +10,7 @@
 </template>
 
 <script setup>
-const description =
-  "All of my long-form thoughts on programming, user interfaces, product design, and more, collected in chronological order.";
+const description = "";
 useSeoMeta({
   title: "文章 | 小鑫同学",
   description,

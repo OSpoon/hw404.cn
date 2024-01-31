@@ -12,9 +12,7 @@
       如果你也对编程或者前端开发感兴趣，我们可以互相交流学习。
     </p>
     <div class="flex items-center gap-3 mt-6">
-      <div class="w-full flex justify-center">
-        <img src="/wechat.png" alt="微信" class="h-55 w-48 sm:h-50 sm:w-45" />
-      </div>
+      <img src="/wechat.png" alt="微信" class="h-55 w-48 sm:h-50 sm:w-45" />
     </div>
   </div>
 </template>

@@ -23,8 +23,7 @@
 </template>
 
 <script setup>
-const description =
-  "Software I use, gadgets I love, and other things I recommend. Here’s a big list of all of my favorite stuff.";
+const description = "";
 useSeoMeta({
   title: "工具箱 | 小鑫同学",
   description,

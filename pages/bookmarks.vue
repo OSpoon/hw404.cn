@@ -64,6 +64,11 @@ const bookmarks = [
     label: "Quarkc，为跨技术栈而生！",
     url: "https://quarkc.hellobike.com/#/",
   },
+  {
+    id: 7,
+    label: "LogicFlow 流程图编辑框架",
+    url: "https://site.logic-flow.cn/",
+  },
 ];
 
 function getHost(url) {
