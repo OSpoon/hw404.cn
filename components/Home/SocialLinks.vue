@@ -25,7 +25,7 @@
 <script lang="ts" setup>
 const links = [
   {
-    name: "掘金",
+    name: "JueJin",
     url: "https://juejin.cn/user/3966693685871694",
     icon: "simple-icons:juejin",
   },
