@@ -9,7 +9,7 @@
       <h2 class="uppercase text-xs font-semibold text-gray-400">保持联系</h2>
     </div>
     <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
-      添加我的微信(PetitXin1994)为好友，你将获得一位⑨年前端的保驾护航，还不快来体验一下？
+      添加我的微信(PetitXin1994)为好友，你将获得一位⑧年前端的保驾护航，还不快来体验一下？
     </p>
   </div>
 </template>
