@@ -1,23 +1,24 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">经常出现</h2>
-    <div class="space-y-5">
-      <NuxtLink
+    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">社区链接</h2>
+    <div class="flex flex-wrap gap-3">
+      <UCard
         v-for="link in links"
         :key="link.icon"
-        :to="link.url"
-        target="_blank"
-        external
-        class="flex items-end gap-4 dark:hover:text-gray-300 group"
+        :ui="{ ring: 'ring-0 ring-gray-200 dark:ring-gray-800' }"
       >
-        <span class="text-sm">
-          {{ link.name }}
-        </span>
-        <div
-          class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
-        ></div>
-        <Icon :name="link.icon" class="w-6 h-6"></Icon>
-      </NuxtLink>
+        <NuxtLink
+          :to="link.url"
+          target="_blank"
+          external
+          class="p-2 -m-2 rounded-lg dark:hover:text-gray-300"
+        >
+          <Icon :name="link.icon" class="w-6 h-6 mr-2"></Icon>
+          <span class="text-sm">
+            {{ link.name }}
+          </span>
+        </NuxtLink>
+      </UCard>
     </div>
   </div>
 </template>
@@ -25,14 +26,64 @@
 <script lang="ts" setup>
 const links = [
   {
-    name: "JueJin",
+    name: "GitHub",
+    url: "https://github.com/ospoon",
+    icon: "mdi:github",
+  },
+  {
+    name: "掘金",
     url: "https://juejin.cn/user/3966693685871694",
     icon: "simple-icons:juejin",
   },
   {
-    name: "GitHub",
-    url: "https://github.com/ospoon",
-    icon: "mdi:github",
+    name: "Stackblitz",
+    url: "https://stackblitz.com/",
+    icon: "simple-icons:stackblitz",
+  },
+  {
+    name: "Codesandbox",
+    url: "https://codesandbox.io/",
+    icon: "simple-icons:codesandbox",
+  },
+  {
+    name: "Gitpod",
+    url: "https://gitpod.io/",
+    icon: "simple-icons:gitpod",
+  },
+  {
+    name: "Vercel",
+    url: "https://vercel.com/",
+    icon: "simple-icons:vercel",
+  },
+  {
+    name: "Netlify",
+    url: "https://www.netlify.com/",
+    icon: "simple-icons:netlify",
+  },
+  {
+    name: "Vite",
+    url: "https://vitejs.dev/",
+    icon: "simple-icons:vite",
+  },
+  {
+    name: "Vue.js",
+    url: "https://v3.cn.vuejs.org/",
+    icon: "mdi:vuejs",
+  },
+  {
+    name: "Ant Design Vue",
+    url: "https://antdv.com/",
+    icon: "simple-icons:antdesign",
+  },
+  {
+    name: "TransformTools",
+    url: "https://transform.tools/",
+    icon: "material-symbols-light:transform-rounded",
+  },
+  {
+    name: "智普清言",
+    url: "https://chatglm.cn/",
+    icon: "bi:chat-dots",
   },
 ];
 </script>

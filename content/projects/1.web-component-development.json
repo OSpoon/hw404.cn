@@ -1,8 +1,8 @@
 {
   "name": "web-component-development",
   "url": "https://github.com/OSpoon/web-component-development",
-  "description": "批量构建 Quarkc 跨端组件",
-  "thumbnail": "",
+  "description": "框架 · 基于 Quarkc 开发批量构建 WebComponents 组件",
+  "thumbnail": "/avatar.png",
   "status": "Active",
   "opensource": true
 }
