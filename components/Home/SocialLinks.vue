@@ -36,16 +36,6 @@ const links = [
     icon: "simple-icons:juejin",
   },
   {
-    name: "Stackblitz",
-    url: "https://stackblitz.com/",
-    icon: "simple-icons:stackblitz",
-  },
-  {
-    name: "Codesandbox",
-    url: "https://codesandbox.io/",
-    icon: "simple-icons:codesandbox",
-  },
-  {
     name: "Gitpod",
     url: "https://gitpod.io/",
     icon: "simple-icons:gitpod",
@@ -74,16 +64,6 @@ const links = [
     name: "Ant Design Vue",
     url: "https://antdv.com/",
     icon: "simple-icons:antdesign",
-  },
-  {
-    name: "TransformTools",
-    url: "https://transform.tools/",
-    icon: "material-symbols-light:transform-rounded",
-  },
-  {
-    name: "智普清言",
-    url: "https://chatglm.cn/",
-    icon: "bi:chat-dots",
   },
 ];
 </script>

@@ -54,6 +54,11 @@ const items = [
     icon: "solar:document-add-outline",
   },
   {
+    name: "Tools",
+    path: "/tools",
+    icon: "bi:terminal",
+  },
+  {
     name: "Bookmarks",
     path: "/bookmarks",
     icon: "solar:bookmark-linear",

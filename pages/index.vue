@@ -4,6 +4,7 @@
       <HomeIntro />
       <HomeFeaturedArticles />
       <HomeFeaturedProjects />
+      <HomeToolLinks />
       <HomeSocialLinks />
       <HomeNewsletter />
     </div>
