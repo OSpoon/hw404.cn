@@ -390,3 +390,5 @@ diff --git a/packages/main-angular-app/src/app/app.component.html b/packages/mai
 - **lerna-lite** 的 `publish` 和 `watch` 两个命名以及其他命令的更多选项可以到 [https://github.com/lerna-lite/lerna-lite](https://github.com/lerna-lite/lerna-lite) 查看学习。
 
 PS：源码访问 [https://github.com/OSpoon/simple-micro-app](https://github.com/OSpoon/simple-micro-app) 获取；
+
+> 版权声明: 本文为【小鑫同学(PetitXin1994)】的原创，文章转载请联系作者。
