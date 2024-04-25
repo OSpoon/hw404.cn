@@ -1,8 +1,0 @@
-{
-  "name": "adapt-pkg",
-  "url": "https://github.com/OSpoon/adapt-pkg",
-  "description": "工具 · 辅助 starter-ts 模板初始化MIT的库名称、描述、存储库、自述文件和许可",
-  "thumbnail": "/avatar.png",
-  "status": "Active",
-  "opensource": true
-}
